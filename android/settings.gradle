@@ -1,0 +1,3 @@
+rootProject.name = 'mapexample'
+
+include ':app'
