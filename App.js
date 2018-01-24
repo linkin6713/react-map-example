@@ -5,6 +5,8 @@
  */
 
 import React, { Component } from 'react';
+const FBLoginManager = require("react-native-facebook-login");
+debugger;
 import {
   Platform,
   StyleSheet,

@@ -1,4 +1,14 @@
 PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.29.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.29.0):
+    - FBSDKCoreKit
   - GoogleMaps (2.5.0):
     - GoogleMaps/Maps (= 2.5.0)
   - GoogleMaps/Base (2.5.0)
@@ -48,6 +58,7 @@ PODS:
   - yoga (0.51.0.React)
 
 DEPENDENCIES:
+  - FBSDKLoginKit
   - GoogleMaps
   - react-native-google-maps (from `../node_modules/react-native-maps`)
   - react-native-maps (from `../node_modules/react-native-maps`)
@@ -76,12 +87,15 @@ EXTERNAL SOURCES:
     :path: ../node_modules/react-native/ReactCommon/yoga/yoga.podspec
 
 SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: 6f139173dc63a1deaff4430a55f2fe5bb222d2af
+  FBSDKLoginKit: 56a057ca6822535ea0faa25f57a7c41edb697fd4
   GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
   React: 352f02f1db6e4744f9a758527e13e3fdefbbd6ba
   react-native-google-maps: dc6d7644b0517e6e232644d2b66004714b91e152
   react-native-maps: d3b689927722398a12a4b3007fd9a0c60e1c48cd
   yoga: b5d96400ca8b2936965a7a6516da7c1177f432a3
 
-PODFILE CHECKSUM: f7d088e2ac04cb4c2985a0753bd8a4d07c0a9a3d
+PODFILE CHECKSUM: debbef52a7145c0bace52ad86d2e0f9a4aed6b7a
 
 COCOAPODS: 1.3.1

@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target ‘mapexample’ do
+target 'mapexample' do
   rn_path = '../node_modules/react-native'
   rn_maps_path = '../node_modules/react-native-maps'
 
@@ -22,7 +22,7 @@ target ‘mapexample’ do
   ]
 
   pod 'react-native-maps', path: rn_maps_path
-
+  pod 'FBSDKLoginKit'
   pod 'GoogleMaps'  # Remove this line if you don't want to support Google Maps on iOS
   pod 'react-native-google-maps', path: rn_maps_path  # Remove this line if you don't want to support Google Maps on iOS
 end
